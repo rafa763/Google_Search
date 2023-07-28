@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  color: #fff;
+  padding: 20px;
+}
+header .search {
+  margin-left: 6px;
+  padding: 4px;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .img-holder {
+  position: relative;
+  display: inline-block;
+}
+main .img-holder img {
+  height: 92px;
+}
+main .img-holder span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-top: 2px;
+  padding: 10px 10px 0 0;
+  color: #4285f4;
+  font-size: 15px;
+}
+main .form-container {
+  width: 100%;
+  margin: 0 auto;
+}
+main input[type=text] {
+  display: block;
+  width: 100%;
+  background-image: url(https://img.icons8.com/ios/50/000000/search--v1.png);
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  background-size: 20px 20px;
+  margin: 25px auto 0;
+  max-width: 584px;
+  padding: 15px 50px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+main .submit-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+main .submit-button img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+main .buttons {
+  margin: 15px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main .buttons input {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+}
+main input[type=submit] {
+  display: hidden;
+}
+main .small-holder {
+  font-size: small;
+  margin: 5px auto 30px;
+}
+main .img {
+  margin-bottom: 100px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 0 20px;
+}
+
+.country {
+  border-bottom: 1px solid #dadce0;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.links, .legal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box {
+  color: #70757a;
+  padding: 15px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */
