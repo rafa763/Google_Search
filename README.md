@@ -1,6 +1,8 @@
-# Google Search Front End
+# [Google Search Front End](https://roaring-longma-bcc24a.netlify.app/)
 
 This project is a simple front-end implementation of Google's search interface. It includes three pages: Google Search, Google Image Search, and Google Advanced Search. The project is part of CS50's Web Programming with Python and JavaScript course.
+
+- you can view a live demo [here](https://roaring-longma-bcc24a.netlify.app/)
 
 ## Table of Contents
 
